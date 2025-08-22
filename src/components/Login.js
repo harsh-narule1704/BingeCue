@@ -12,12 +12,15 @@ const Login = () => {
     const password = useRef(null);
 
     const handleButtonClick = () => {
+
       const nameValue = isSignInForm ? "" : name.current.value
       const message = checkValidData(email.current.value, password.current.value, nameValue);
       setErrorMessage(message);
 
+      if(message)
+          return;
 
-
+      
     };
 
     const toggleSignInForm = () => {
