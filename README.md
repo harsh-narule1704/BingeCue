@@ -26,6 +26,9 @@
 - Planning for MainContainer and Secondary Container
 - Update Store with Trailer Video Data
 - Embedded the YT video and make it autoplay and mute
+- Build secondary component
+- Build Movie list
+- Build Movie Card
 - 
 
 
